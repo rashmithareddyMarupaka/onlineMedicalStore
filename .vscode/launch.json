@@ -11,8 +11,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "open index.html",
-            "file":"${workspaceFolder}/index.html",
+            "name": "open content.html",
+            "file":"${workspaceFolder}/content.html",
             
             "webRoot": "${workspaceFolder}"
         }

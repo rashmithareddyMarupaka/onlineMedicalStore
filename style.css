@@ -3,15 +3,14 @@
     padding: 0;
 
 }
-
 .main{
-    width: 109%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(plus.jpg);
+    width: 100%;
+    background: linear-gradient(to top, rgba(231, 225, 225, 0.5)50%,rgba(231, 224, 224, 0.5)50%), url(9.png);
+    
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
-
 .navbar{
     width: 1200px;
     height: 75px;
@@ -23,7 +22,6 @@
     float: left;
     height: 70px;
 }
-
 .logo{
     color: #ff0000;
     font-size: 35px;
@@ -45,7 +43,6 @@ ul{
     justify-content: center;
     align-items: center;
 }
-
 ul li{
     list-style: none;
     margin-left: 62px;
@@ -56,14 +53,14 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: rgb(127, 255, 127);
-    font-family: Helvetica;
+    color: rgb(127, 255, 138);
+    font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
 
 ui li a:hover{
-    color: rgba(219, 135, 222, 0.397);
+    color: palevioletred;
 
 }
 .search{
@@ -77,9 +74,9 @@ ui li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid #ff2600;
+    border: 1px solid #00b7ff;
     margin-top: 13px;
-    color: #ff0000;
+    color: #00eeff;
     border-right: none;
     font-size: 16px;
     float: left;
@@ -91,10 +88,10 @@ ui li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: rgb(211, 255, 182);
-    border: 2px solid #00ff40;
+    background: rgb(182, 255, 194);
+    border: 2px solid #00ffbf;
     margin-top: 13px;
-    color: rgb(43, 46, 226);
+    color: rgb(112, 145, 216);
     font-size: 15px;
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -118,72 +115,45 @@ ui li a:hover{
     position: relative;
 
 }
-
 .content .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial;
-    letter-spacing: 1.2px;
-    line-height: 30px;
+    
+    padding-bottom: 10px;
+    font-family: italic;
+    letter-spacing: 1px;
+    line-height: 20px;
 
 }
 
 .content h1{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-}
-
-.content .cn{
-    width: 160px;
-    height: 40px;
-    background: darkgreen;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.content .cn a{
-    text-decoration: none;
-    color:rgba(0, 0, 0, 0.5);
-    transition: .3s ease;
-
-}
-
-.cn:hover{
-    background-color: seashell ;
+    font-family: 'Times new roman';
+    font-size: 45px;
+    margin-top: 0%;
+    letter-spacing: 1px;
 }
 
 .content span{
-    color: springgreen;
+    color: rgb(0, 255, 55);
     font-size: 60px;
 }
 
 .form{
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    background: linear-gradient(to top, lightblue,lightblue);
     position: absolute;
     top: -20px;
     left: 870px;
     border-radius: 10px;
     padding: 25px;
-
-
 }
 
 .form h2{
     width: 220px;
     font-size: sans-serif;
     text-align: center;
-    color: springgreen;
+    color: rgb(255, 72, 0)
     font-size: 22px;
-    background-color: rgb(94, 95, 94);
+    background-color: lightorange;
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
@@ -194,11 +164,11 @@ ui li a:hover{
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid #00ff40 ;
+    border-bottom: 1px solid #ff1100 ;
     border-top: none;
     border-right: none;
     border-left: none;
-    color: aliceblue;
+    color: black;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -207,7 +177,6 @@ ui li a:hover{
 
 .form input:focus{
     outline: none;
-
 }
 
 ::placeholder{
@@ -220,13 +189,13 @@ ui li a:hover{
 .btnn{
     width: 240px;
     height: 40px;
-    background: rgb(117, 139, 132);
+    background: lightsalmon;
     border: none;
     margin-top: 30px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    color: azure;
+    color: rgb(255, 240, 242);
     transition: 0.4s ease;
 }
 
@@ -237,12 +206,12 @@ ui li a:hover{
 
 .btnn a{
     text-decoration: none;
-    color: crimson;
+    color: black;
     font-weight: bold;
 
 }
 
-.form.link{
+.form .link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
@@ -250,9 +219,9 @@ ui li a:hover{
 
 }
 
-.form.link a{
+.form .link a{
     text-decoration: none;
-    color: rgb(0, 255, 0);
+    color: rgb(255, 0, 221);
 
 }
 
@@ -261,3 +230,31 @@ ui li a:hover{
     padding-bottom: 10px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
